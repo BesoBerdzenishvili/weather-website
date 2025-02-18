@@ -1,3 +1,9 @@
+import Search from "@/shared/Search";
+
 export default function Home() {
-  return <div>test</div>;
+  return (
+    <div>
+      <Search />
+    </div>
+  );
 }
